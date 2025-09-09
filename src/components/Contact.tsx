@@ -48,9 +48,11 @@ const Contact = () => {
               </div>
 
               <div className="text-center pt-8 border-t border-border">
-                <Button variant="hero" size="lg" className="text-lg px-12 py-6">
-                  Start Your Project Today
-                </Button>
+                <a href="mailto:administrator@abercroft.co.zw" rel="noopener noreferrer">
+                  <Button variant="hero" size="lg" className="text-lg px-12 py-6">
+                    Start Your Project Today
+                  </Button>
+                </a>
                 <p className="text-sm text-muted-foreground mt-4">
                   Get in touch with our team to discuss your ICT requirements and receive a personalized consultation.
                 </p>
